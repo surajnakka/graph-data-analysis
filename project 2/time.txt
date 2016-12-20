@@ -1,0 +1,11 @@
+
+
+analyze-centrality.py
+
+1. USairport - 1min ~ 2min
+2. Imdb - 30mins ~ 45mins
+3. Steam-Sweden - 
+		selecting random nodes
+			1000 nodes - 20sec
+			10,000 nodes - 1m14.907s
+			50,000 nodes - 
