@@ -1,0 +1,15 @@
+#
+# Undirected graph - shortest path. G(10876, 39994). Diam: avg:4.64  eff:5.41  max:10 (Fri Sep 23 19:38:56 2016)
+#
+# Number of hops	Number of shortest paths
+0	1000
+1	7457
+2	90924
+3	878280
+4	3.75849e+06
+5	4.40054e+06
+6	1.57473e+06
+7	153187
+8	10791
+9	609
+10	2

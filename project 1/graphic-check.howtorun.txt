@@ -1,0 +1,24 @@
+#how to run graphic-check.py
+
+The program can be run by the follwoing command
+
+$ python graphic-check.py <file-name>
+
+The program takes only one file-name as input and returns error if more or no file-names are given
+
+For the given files following are the commands to run
+
+ds1.txt :
+$ python graphic-check.py ds1.txt
+
+ds2.txt :
+$ python graphic-check.py ds2.txt
+
+ds3.txt :
+$ python graphic-check.py ds3.txt
+
+ds4.txt :
+$ python graphic-check.py ds4.txt
+
+The output prints if the given degreeseq is a valid graphic degree sequence or not.
+

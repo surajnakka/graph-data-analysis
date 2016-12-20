@@ -1,0 +1,27 @@
+The gen-structure.py program can be run by the following command
+
+$ python gen-structure.py <file-name>
+
+The program takes only one file-name as input and returns error if more or no file-names are given
+
+For the given files following are the commands to run
+
+p2p-Gnutella04.txt :
+$ python gen-structure.py p2p-Gnutella04.txt 
+
+Wiki-Vote.txt :
+$ python gen-structure.py Wiki-Vote.txt
+
+steam-sweden-sample.txt :
+$ python gen-structure.py steam-sweden-sample.txt
+
+as-caida20040105.txt
+$ python gen-structure.py as-caida20040105.txt
+
+random5000by6.txt
+$ python gen-structure.py random5000by6.txt
+
+
+NOTE: The executions for all the above files should complete within at least 2 minutes except for "steam-sweden-sample.txt". This graph contains lot of edges making the "shortest paths distribtion plot" take more time than 2 minutes. Also the execution times depend on server availability. I observed that the execution times were different on c4 lab machines and can take more time if more users are sharing the particular c4lab machine.
+
+WANRNINGS: The program throws a warning when it tries to create a plot, this is because the plotting functions available in snaps try to use "Arial" font which is not available.
